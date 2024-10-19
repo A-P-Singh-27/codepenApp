@@ -20,11 +20,11 @@ function App() {
       console.log(output.srcdoc);
       
   }
-  useEffect(()=>{
+  /* useEffect(()=>{
     
-    output.srcdoc = '<h1><h1>Hello Bhadwe Code likh...</h1></h1>';
+    output.srcdoc = '<h1><h1>Hello..</h1></h1>';
   } ,[])
-  
+   */
 
   return (
     <>
