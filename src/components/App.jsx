@@ -16,7 +16,7 @@ function App() {
   function run() {
     const output = document.getElementById('output');
       const fullCont = htmlCont + `<style>${cssCont}</style>` + `<script>${jsCont}</script>`;
-      output.srcdoc = '<h1>Hello Baby Code likho</h1>' + fullCont;
+      output.srcdoc = fullCont;
       console.log(output.srcdoc);
       
   }
